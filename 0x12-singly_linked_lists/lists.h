@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <string.h>
+#include<string.h>
 #include <stdlib.h>
 #include <stdarg.h>
 #include <stdio.h>
@@ -12,7 +12,6 @@
  * @next: direction to the next node
  *
  * Description: node structure
- * 
  */
 typedef struct list_s
 {
