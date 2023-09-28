@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * clear_bit - Zeroes out the bit at the given position
- * @n: A memory address pointing to the bit
- * @n: The location for value modification - indices begin at 0.
- * Return: When encountering an error - -1.
+ * clear_bit - Zeroes out a bit at the specified index.
+ * @n: A pointer to the bit.
+ * @index: The count for value manipulation - indexing starts at 0
+ *
+ * Return: If an error occurs - -1.
  * Otherwise - 1.
  */
 int clear_bit(unsigned long int *n, unsigned int index)
